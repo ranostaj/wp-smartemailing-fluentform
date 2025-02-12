@@ -14,6 +14,7 @@ License URI:	http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 define( 'SMART_EMAILING_PATH', plugin_dir_path( __FILE__ ) );
+define( 'SMART_EMAILING_URL', plugin_dir_url( __FILE__ ) );
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly

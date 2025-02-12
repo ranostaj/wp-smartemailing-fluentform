@@ -20,7 +20,7 @@ class FluentFormIntegration extends IntegrationManagerController {
 			16
 		);
 
-		$this->logo = fluentFormMix( 'img/integrations/sendinblue.png' );
+		$this->logo = SMART_EMAILING_URL. 'smartemailing.png';
 
 		$this->description = 'Create contacts easily on your Brevo (formerly SendInBlue) email list with Fluent Forms Brevo integration.';
 
