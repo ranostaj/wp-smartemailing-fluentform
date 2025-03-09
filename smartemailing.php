@@ -4,7 +4,7 @@
 Plugin Name: 	Smart Emailing Fluent Form Integration
 Plugin URI:
 Description: 	Integrate Smart Emailing with Fluent Form
-Version: 		1.0.0
+Version: 		1.0.1
 Author: 		Jan Ranostaj
 Author URI: 	https://ranostaj.com
 Text Domain: 	smartemailing

@@ -336,7 +336,7 @@ class FluentFormIntegration extends IntegrationManagerController {
 
 		$response = $api->addContact( $addData );
 
-		if ( ! is_wp_error( $response ) && ! empty( $response['id'] ) ) {
+		if ( ! empty( $response['status'] ) &&  $response['status'] === 'created' ) {
 			do_action( 'fluentform/integration_action_result', $feed, 'success', __( 'SmartEmailing feed has been successfully initialed and pushed data', 'smartemailing' ) );
 		} else {
 			$error = __( 'API Error when submitting Data', 'smartemailing' );
